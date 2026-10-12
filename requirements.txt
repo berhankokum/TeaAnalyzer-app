@@ -1,0 +1,17 @@
+# Application dependencies, not a fully locked training environment.
+# RF checkpoint was saved with scikit-learn 1.8.0.
+scikit-learn==1.8.0
+# Tea segmentation and leaf-age checkpoint metadata use this version.
+# The leaf detector checkpoint was saved with 8.2.38; verify it with this runtime.
+ultralytics==8.3.240
+
+numpy
+opencv-python
+joblib
+torch
+torchvision
+Pillow
+PyQt6
+pandas
+openpyxl
+reportlab

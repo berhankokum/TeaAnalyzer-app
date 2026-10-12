@@ -220,3 +220,53 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Model weights and serialized estimators (keep only model documentation)
+/models/*
+!/models/README.md
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+*.h5
+*.keras
+*.ckpt
+*.safetensors
+
+# Local datasets and generated analysis outputs
+/data/
+/datasets/
+/runs/
+/outputs/
+/reports/
+/artifacts/
+*_rapor.pdf
+*_analiz.xlsx
+test_tea_mask.png
+
+# Python caches, environments and packaging output
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local configuration and editor/OS files
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
